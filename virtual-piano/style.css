@@ -256,6 +256,10 @@ body {
 	font-weight: bold;
 	transition: 0.3s;
 }
+
+.piano-key.letters::before {
+	content: attr(data-letter)
+}
 .rss:hover .rss-year {
 	right: -5px;
 	letter-spacing: 0;
